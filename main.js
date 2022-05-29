@@ -20,5 +20,5 @@ keys.forEach(key => {
 
 function removeTransition(e) {
     if (e.propertyName !== 'transform') return
-    console.log(e.propertyName)
+    this.classList.remove('playing')
 }
