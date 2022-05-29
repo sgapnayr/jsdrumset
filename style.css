@@ -20,7 +20,6 @@ img {
     width: 100%;
     position: absolute;
     filter: brightness(.6) contrast(1.1);
-
 }
 
 /* Title */
@@ -59,7 +58,7 @@ h1 p {
     border: 3px solid rgb(203, 203, 203);
     border-radius: 2px;
     padding: .5rem;
-    transform: scale(.7);
+    transform: scale(.9);
     transition: .07s all ease-in-out;
     cursor: pointer;
 }
