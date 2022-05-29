@@ -63,16 +63,13 @@ h1 p {
     cursor: pointer;
 }
 
-.key:hover {
-    background: white;
+.playing {
+    border-color: white;
+    transform: scale(.75);
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.4);
 }
 
 .sound {
     opacity: .4;
     font-style: italic;
-}
-
-.playing {
-    border-color: white;
-    transform: scale(1.1);
 }
